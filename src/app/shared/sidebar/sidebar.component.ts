@@ -32,6 +32,11 @@ users: Users=null;
 roles:any[];
   menuItems?:any[];
   menuItemsx?:any[];
+  menuItemsCamara?:any[];
+  menuItemsRed?:any[];
+  menuItemsOther?:any[];
+  menuItemsReport?:any[];
+  menuItemsLoans?:any[];
   
   constructor(public credentials:CredentialsService ,private sidebarService:SidebarService,private router:Router, 
     private sessionService: SessionService,
@@ -43,6 +48,11 @@ roles:any[];
     ) { 
     this.menuItems=sidebarService.menu;
     this.menuItemsx=sidebarService.menux;
+    this.menuItemsCamara=sidebarService.menucam;
+    this.menuItemsRed=sidebarService.menured;
+    this.menuItemsOther=sidebarService.menuOther;
+    this.menuItemsReport=sidebarService.menuReport;
+    this.menuItemsLoans=sidebarService.menuLoans;
    
     
   }
