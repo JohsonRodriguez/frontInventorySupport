@@ -32,6 +32,7 @@ import { EstadoPipe } from '../pipes/estado.pipe';
 import { NewpasswordComponent } from './user/newpassword/newpassword.component';
 import { NewrolComponent } from './user/newrol/newrol.component';
 import { CpuComponent } from './cpu/cpu/cpu.component';
+import { NewcpuComponent } from './cpu/newcpu/newcpu.component';
 
 
 
@@ -70,6 +71,7 @@ import { CpuComponent } from './cpu/cpu/cpu.component';
     NewpasswordComponent,
     NewrolComponent,
     CpuComponent,
+    NewcpuComponent,
     
     
   ],
