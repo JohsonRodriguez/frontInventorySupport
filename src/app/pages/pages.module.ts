@@ -31,6 +31,7 @@ import { AddtocarComponent } from './persons/addtocar/addtocar.component';
 import { EstadoPipe } from '../pipes/estado.pipe';
 import { NewpasswordComponent } from './user/newpassword/newpassword.component';
 import { NewrolComponent } from './user/newrol/newrol.component';
+import { CpuComponent } from './cpu/cpu/cpu.component';
 
 
 
@@ -68,6 +69,7 @@ import { NewrolComponent } from './user/newrol/newrol.component';
     EstadoPipe,
     NewpasswordComponent,
     NewrolComponent,
+    CpuComponent,
     
     
   ],

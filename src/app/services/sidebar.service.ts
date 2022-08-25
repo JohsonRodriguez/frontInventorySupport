@@ -33,7 +33,7 @@ export class SidebarService {
     icono: '"nav-icon fa-solid fa-computer',
     user:'ROLE_ADMIN',
     submenux: [
-      { titulo: 'Cpu', url: 'reportcars' },
+      { titulo: 'Cpu', url: 'cpu' },
       { titulo: 'Monitores', url: 'reportperson' },
       { titulo: 'Teclado', url: 'reportcarsbyperson' },
       { titulo: 'Mouses', url: 'reportregister' },

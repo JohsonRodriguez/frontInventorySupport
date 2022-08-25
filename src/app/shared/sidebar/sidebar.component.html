@@ -12,14 +12,14 @@
       <nav class="mt-2" >
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a routerLink="dashboard" class="nav-link" style="cursor: pointer;">
+            <a routerLink="dashboard" class="nav-link hover">
                 <i class="fa-solid fa-table-cells-large nav-icon" style="color: white;"></i>
               <p style="color: white;">Tablero</p>
             </a>
           </li>
           <li class="nav-item has-treeview" id="drop" *ngFor="let item of menuItemsx" >
               
-            <a class="nav-link " style="cursor: pointer;">
+            <a class="nav-link hover" >
               <i class="{{item.icono}}" style="color: white; padding-left: 5px; font-size: 20px;"></i>
               <p class="ml-2" style="color: white;">
                 {{item.titulo}}
@@ -44,7 +44,7 @@
                with font-awesome or any other icon font library -->
               <li class="nav-item"  *ngFor="let subMenuItem of item.submenu"  >
                 <!-- <a [routerLink]="subMenuItem.url" class="nav-link" style="cursor: pointer;" *ngIf="currentUser == 'ROLE_ADMIN' || currentUser == subMenuItem.user "> -->
-                <a [routerLink]="subMenuItem.url" class="nav-link" style="cursor: pointer;">
+                <a [routerLink]="subMenuItem.url" class="nav-link hover">
                     <i class="{{subMenuItem.icono}}" style="color: white;"></i>
                   <p style="color: white;">{{subMenuItem.titulo}}</p>
                 </a>
@@ -53,7 +53,7 @@
              <!-- FInal de Menu -->
              <li class="nav-item has-treeview" id="drop" *ngFor="let item of menuItemsCamara" >
               
-              <a class="nav-link " style="cursor: pointer;">
+              <a class="nav-link hover " >
                 <i class="{{item.icono}}" style="color: white; padding-left: 5px; font-size: 20px;"></i>
                 <p class="ml-2" style="color: white;">
                   {{item.titulo}}
@@ -74,7 +74,7 @@
               <!-- FInal de Menu -->
               <li class="nav-item has-treeview" id="drop" *ngFor="let item of menuItemsRed" >
               
-                <a class="nav-link " style="cursor: pointer;">
+                <a class="nav-link hover " >
                   <i class="{{item.icono}}" style="color: white; padding-left: 5px; font-size: 20px;"></i>
                   <p class="ml-2" style="color: white;">
                     {{item.titulo}}
@@ -95,7 +95,7 @@
                   <!-- FInal de Menu -->
               <li class="nav-item has-treeview" id="drop" *ngFor="let item of menuItemsOther" >
               
-                <a class="nav-link " style="cursor: pointer;">
+                <a class="nav-link hover" >
                   <i class="{{item.icono}}" style="color: white; padding-left: 5px; font-size: 20px;"></i>
                   <p class="ml-2" style="color: white;">
                     {{item.titulo}}
@@ -116,7 +116,7 @@
                   <!-- FInal de Menu -->
               <li class="nav-item has-treeview" id="drop" *ngFor="let item of menuItemsReport" >
               
-                <a class="nav-link " style="cursor: pointer;">
+                <a class="nav-link hover" >
                   <i class="{{item.icono}}" style="color: white; padding-left: 5px; font-size: 20px;"></i>
                   <p class="ml-2" style="color: white;">
                     {{item.titulo}}
@@ -137,7 +137,7 @@
                       <!-- FInal de Menu -->
               <li class="nav-item has-treeview" id="drop" *ngFor="let item of menuItemsLoans" >
               
-                <a class="nav-link " style="cursor: pointer;">
+                <a class="nav-link hover" >
                   <i class="{{item.icono}}" style="color: white; padding-left: 5px; font-size: 20px;"></i>
                   <p class="ml-2" style="color: white;">
                     {{item.titulo}}
@@ -156,7 +156,7 @@
               </li>
                <!-- FInal de Menu -->
               <li class="nav-item">
-                <a (click)="logout()" class="nav-link" style="cursor: pointer;">
+                <a (click)="logout()" class="nav-link hover" >
                     <i class="fas fa-sign-out-alt nav-icon" style="color: white;"></i>
                   <p style="color: white;">Cerrar Sesión</p>
                 </a>

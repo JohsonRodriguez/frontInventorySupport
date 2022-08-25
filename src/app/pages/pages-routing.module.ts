@@ -25,6 +25,7 @@ import { LoginComponent } from '../auth/login/login.component';
 import { AddtocarComponent } from './persons/addtocar/addtocar.component';
 import { NewpasswordComponent } from './user/newpassword/newpassword.component';
 import { NewrolComponent } from './user/newrol/newrol.component';
+import { CpuComponent } from './cpu/cpu/cpu.component';
 
 
 
@@ -56,6 +57,7 @@ const routes: Routes = [
   {path: 'vercar/:id',component:DetailcarComponent},
   {path: 'editcar/:id',component:EditcarComponent},
   {path: 'verregister/:id',component:DetailregisterComponent},
+  {path:'cpu',component:CpuComponent},
   
   
   ]}

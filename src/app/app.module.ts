@@ -20,11 +20,13 @@ import {AutocompleteLibModule} from 'angular-ng-autocomplete';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NopageFoundComponent,
     NewcarComponent,
+    
     
     
     

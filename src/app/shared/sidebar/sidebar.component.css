@@ -1,6 +1,11 @@
 aside{
     background: #0F1047;
 }
+.hover:hover{
+    background-color: #2D2E72;
+    cursor: pointer;
+    border-radius: 20px;
+}
 
 img{
     width: 150px;
