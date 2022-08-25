@@ -33,6 +33,7 @@ import { NewpasswordComponent } from './user/newpassword/newpassword.component';
 import { NewrolComponent } from './user/newrol/newrol.component';
 import { CpuComponent } from './cpu/cpu/cpu.component';
 import { NewcpuComponent } from './cpu/newcpu/newcpu.component';
+import { EditcpuComponent } from './cpu/editcpu/editcpu.component';
 
 
 
@@ -72,6 +73,7 @@ import { NewcpuComponent } from './cpu/newcpu/newcpu.component';
     NewrolComponent,
     CpuComponent,
     NewcpuComponent,
+    EditcpuComponent,
     
     
   ],

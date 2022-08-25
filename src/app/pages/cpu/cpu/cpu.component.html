@@ -11,7 +11,7 @@
               <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4">
                 <div class="row">
                      <div class="col-sm-12 col-md-6">
-                    <button class="btn " routerLink="/dashboard/newuser">Nuevo</button>
+                    <button class="btn " routerLink="/dashboard/newcpu">Nuevo</button>
                      </div><div class="col-sm-12 col-md-6"><div id="example1_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder=""  [(ngModel)]="filter" name="filter"></label>
                     </div>
                   </div>
@@ -52,7 +52,7 @@
                   <td style="color:red; font-weight: bold;">INOPERATIVO</td>
                   <td>problemas con el disco</td>
                   <td>ALMACEN</td>
-                  <td><a title="Editar usuario" style="padding-right: 20px; color:orange; font-size: 15px;"><i class="fas fa-pencil-alt"></i></a></td>
+                  <td><a routerLink="/dashboard/editcpu/" title="Editar usuario" style="padding-right: 20px; color:orange; font-size: 15px;"><i class="fas fa-pencil-alt"></i></a></td>
                 
                   <!-- <td > 
                     
