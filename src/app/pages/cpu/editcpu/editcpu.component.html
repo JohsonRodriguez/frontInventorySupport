@@ -7,53 +7,50 @@
                  <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                     <div class="row mb-2"> 
                 
-                        <div class="col-sm-12 col-md-4 mx-auto">       
+                        <div class="col-sm-12 col-md-4 mx-auto">
+                            <div class="form-group">
+                                <label for="dni">CODIGO:</label>
+                                <label for="dni">LB-CPU-001</label>
+                                <!-- <input type="text" class="form-control" id="dni" name="dni"
+                                [(ngModel)]="dni" required> -->
+                            </div>       
                             <div class="form-group">
                                 <label for="dni">Marca:</label>
-                                <input type="text" class="form-control" id="dni" name="dni"
-                                [(ngModel)]="dni" required>
+                                <label for="dni">AVANTEC</label>
                             </div>
                             <div class="form-group">
                                 <label for="nombre">Placa:</label>
-                                <input type="text" class="form-control" id="name" name="name"
-                                [(ngModel)]="name"pattern="[a-zA-Z ]*"  required >
+                                <label for="dni">ABUED-15451</label>
                             </div>
                             <div class="form-group">
                                 <label for="lastname">Procesador:</label>
-                                <input type="text" class="form-control" id="lastname" name="lastname"
-                                [(ngModel)]="lastname" required>
+                                <label for="dni">Core i3 octava generacion</label>
                             </div>
                             <div class="form-group">
                                 <label for="registrationplate">Disco Duro:</label>
-                                <input type="text" class="form-control" id="phone" name="phone"
-                                [(ngModel)]="phone" required>
+                                <label for="dni">80 GB HDD</label>
                             </div>
                             <div class="form-group">
                                 <label for="registrationplate">Memoria Ram:</label>
-                                <input type="text" class="form-control" id="phone" name="phone"
-                                [(ngModel)]="phone" required>
+                                <label for="dni">8GB DDR3</label>
                             </div>
                             <div class="form-group">
                                 <label for="registrationplate">Tarjeta de video:</label>
-                                <input type="text" class="form-control" id="phone" name="phone"
-                                [(ngModel)]="phone" required>
+                                <label for="dni">INTEGRADA</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="registrationplate">Color:</label>
+                                <label for="dni">PLOMO</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="registrationplate">Serie:</label>
+                                <label for="dni">ASDASDASD</label>
                             </div>
                                         
         
                         </div>
                           <div class="col-sm-12 col-md-4 mx-auto">  
-                            <div class="form-group">
-                                <label for="registrationplate">Color:</label>
-                                <input type="text" class="form-control" id="phone" name="phone"
-                                [(ngModel)]="phone" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="registrationplate">Serie:</label>
-                                <input type="text" class="form-control" id="phone" name="phone"
-                                [(ngModel)]="phone" required>
-                            </div>
-                           
-                            <div class="form-group">
+                             <div class="form-group">
                                 <label for="carbrand">Estado:</label>
                                 <select class="form-control" id="type" name="type" [(ngModel)]="type" required>
                                     <option value="Administrativo">OPERATIVO</option> 
